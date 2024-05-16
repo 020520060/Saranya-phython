@@ -1,0 +1,14 @@
+def matches(str1, str2):
+    if len(str1) != len(str2):
+        return False
+    for char1, char2 in zip(str1, str2):
+        if char1 != char2:
+            return False
+    return True
+string1 = "hello"
+string2 = "hills"
+print(matches(string1, string2))
+
+string3 = "apple"
+string4 = "apply"
+print(matches(string3, string4)) 
