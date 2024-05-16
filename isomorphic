@@ -1,0 +1,9 @@
+def isIsomorphic(s, t):
+    return len(set(zip(s, t))) == len(set(s)) == len(set(t))
+s1 = "egg"
+t1 = "add"
+print(isIsomorphic(s1, t1))  
+s2 = "foo"
+t2 = "bar"
+print(isIsomorphic(s2, t2)) 
+
