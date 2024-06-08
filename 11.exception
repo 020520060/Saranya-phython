@@ -1,0 +1,9 @@
+Custom Exception
+Multiple Exception
+NameError
+KeyError
+FileNotFoundError
+ValueError
+TypeError
+IndexError
+ZeroDivision
